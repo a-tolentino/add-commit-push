@@ -15,7 +15,7 @@ for x in range(len(sys.argv)):
     if sys.argv[x] == '-f':
         force = True
 
-if force != False:
+if force == False:
     print('Continue with add,commit,push? (y)')
     userInput = input()
     if userInput != 'y':
